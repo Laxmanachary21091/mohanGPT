@@ -6,7 +6,7 @@ from fpdf import FPDF
 import base64
 
 # ✅ Set your API key here
-genai.configure(api_key="AIzaSyBtpMgteEECx3LKR_hO6kCJswu6zPNEzzg")
+genai.configure(api_key="YOUR_GOOGLE_GEMINI_API_KEY")
 
 # ✅ First, configure the page (Must be the first Streamlit command)
 st.set_page_config(page_title="Flavour Fusion:AI-Driven Recipe Blogging", page_icon="🍽", layout="centered")
